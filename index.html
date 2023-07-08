@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sat-Task</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100&family=Roboto:wght@100;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="container-md" id="top_border">
+        <div class="row">
+            <div class="col-md-1 left">
+                <div class="left_bar">
+                    <div class="left_bar_sub1">
+                        <div id="logo">P</div>
+                    </div>
+                    <div class="left_bar_sub2">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <i class="fa-solid fa-clipboard"></i>
+                        <i class="fa-solid fa-user-group"></i>
+                        <i class="fa-regular fa-comment"></i>
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div class="left_bar_sub3">
+                        <img class="left_bar_img" src="./CSS/profile.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 mid">
+                <div class="row">
+                    <input class="col-md-7 input_search" type="text" placeholder="Search Transaction...">
+
+                    <div class="col-md-4"></div>
+                    <div class="col-md-1 b" id="bell">
+                        <button><i class="fa-regular fa-bell"></i></button>
+                    </div>
+                </div>
+
+                <div class="row">Send Money</div>
+
+                <div class="row bar2">
+                    <div class="col-md-7 bar2_sub1">
+                        <div class="bar2_sub1_sub1">
+                            <button id="bar2_sub1_btn">
+                                <p>visa</p>
+                                <p>5664**8877</p>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            <div id="act_bl">
+                                <span>Active Balance</span>
+                                <span>$18,350</span>
+                            </div>
+                        </div>
+
+                        <div class="bar2_sub1_sub2">
+                            <div>
+                                <p>Amount</p>
+                                <h3>$800.00</h3>
+                            </div>
+                            <button>Send Money</button>
+                        </div>
+                    </div>
+                    <div class="col-md-5 bar2_sub2">
+                        <div class="bar2_sub2_sub1">
+                            <p>Monthaly Balance</p>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="bar2_sub2_sub2">
+                            <span>$6,142.40</span>
+                            <span>
+                                <hr>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row bar3">
+                    <div class="col-md-4 card">
+                        <div class="card1">
+                            <div>
+                                <i class="fa-solid fa-chart-pie icon" id="icon1"></i>
+                            </div>
+                            <div class="data">
+                                <h4>$8.242</h4>
+                                <p>Income in This Month</p>
+                            </div>
+                        </div>
+                        <div class="card2">
+                            <span id="card_text1">Balance Up by</span>
+                            <span id="card_incr1">
+                                <i class="fa-solid fa-arrow-up"></i>
+                                +12.57%
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 card">
+                        <div class="card1">
+                            <div>
+                                <i class="fa-solid fa-box-archive icon" id="icon2"></i>
+                            </div>
+                            <div class="data">
+                                <h4>$8.242</h4>
+                                <p>Income in This Month</p>
+                            </div>
+                        </div>
+                        <div class="card2">
+                            <span id="card_text1">Balance Up by</span>
+                            <span id="card_incr2">
+                                <i class="fa-solid fa-arrow-up"></i>
+                                +12.57%
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 card">
+                        <div class="card1">
+                            <div>
+                                <i class="fa-solid fa-wallet icon" id="icon3"></i>
+                            </div>
+                            <div class="data">
+                                <h4>$8.242</h4>
+                                <p>Income in This Month</p>
+                            </div>
+                        </div>
+                        <div class="card2">
+                            <span id="card_text1">Balance Up by</span>
+                            <span id="card_incr3">
+                                <i class="fa-solid fa-arrow-up"></i>
+                                +12.57%
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8">Balance Analytics</div>
+                    <div class="col-md-4">Investment</div>
+                </div>
+
+                <div class="row bar4">
+                    <div class="col-md-8 bar4_sub1">
+                        <img src="./CSS/image1.png" alt="">
+                    </div>
+                    <div class="col-md-4 bar4_sub2">
+                        <div class="bar4_card">
+                            <div class="bar4_card_sub1">
+                                <div class="bar4_icon">
+                                    <i class="fa-brands fa-apple icon icon_4"></i>
+                                </div>
+                                <div class="bar4_text">
+                                    <p>AAPL</p>
+                                    <p>Apple Inc.</p>
+                                </div>
+                            </div>
+                            <div class="bar4_card_sub2">
+                                <p>4.703,98</p>
+                                <p>+19,77</p>
+                            </div>
+                        </div>
+                        <div class="bar4_card">
+                            <div class="bar4_card_sub1">
+                                <div class="bar4_icon">
+                                    <i class="fa-brands fa-facebook icon icon_4"></i>
+                                </div>
+                                <div class="bar4_text">
+                                    <p>FB2A.BE</p>
+                                    <p>Facebook Inc.</p>
+                                </div>
+                            </div>
+                            <div class="bar4_card_sub2">
+                                <p>4.703,98</p>
+                                <p>+19,77</p>
+                            </div>
+                        </div>
+                        <div class="bar4_card">
+                            <div class="bar4_card_sub1">
+                                <div class="bar4_icon">
+                                    <i class="fa-brands fa-google icon icon_4"></i>
+                                </div>
+                                <div class="bar4_text">
+                                    <p>GOOGLE</p>
+                                    <p>Alphabet Inc.</p>
+                                </div>
+                            </div>
+                            <div class="bar4_card_sub2">
+                                <p>4.703,98</p>
+                                <p>+19,77</p>
+                            </div>
+                        </div>
+                        <div class="bar4_card_input input">
+                            <i class="fa-regular fa-circle-plus"></i>
+                            <p>Add Investment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 right">
+                <div class="right_bar">
+                    <div class="row">
+                        <h5>Hello, Barly Vallendito...</h5>
+                        <p>Welcome to Pocket Dashboard</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">My Card</div>
+                        <div class="col-6 right_add"><i class="fa-solid fa-plus right_icon"></i></div>
+                    </div>
+
+                    <div class="row right_bar3">
+                        <div class="col-6 right_bar3_sub1">
+                            <div class="right_card" id="right_card_id">
+                                <div class="right_card_1">
+                                    <p>Card Primary</p>
+                                </div>
+                                <div class="right_card_2">
+                                    <div>
+                                        <p>** 8090</p>
+                                    </div>
+                                    <div>
+                                        <p>Visa</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 right_bar3_sub2">
+                            <div class="right_card">
+                                <div class="right_card_1">
+                                    <h4>$18,350</h4>
+                                </div>
+                                <div class="right_card_2">
+                                    <div> Active Balance</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row right_bar4">
+                        <div class="row">
+                            <div class="col-10">
+                                Recent Transactions
+                            </div>
+                            <div class="col-2">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+
+                        <div class="row scroll">
+
+                            <div class="col-2 name">
+                                <p>V</p>
+                            </div>
+                            <div class="col-7">
+                                <div class="id">
+                                    <h5>Paypal LTD</h5>
+                                    <p>08 March 2020</p>
+                                </div>
+                            </div>
+                            <div class="col-3 price">
+                                +$296.79
+                            </div>
+                            <!-- </div> -->
+
+                            <div class="col-2 name">
+                                <p>I</p>
+                            </div>
+                            <div class="col-7">
+                                <div class="id">
+                                    <h5>Paypal LTD</h5>
+                                    <p>08 March 2020</p>
+                                </div>
+                            </div>
+                            <div class="col-3 price">
+                                +$296.79
+                            </div>
+
+
+                            <div class="col-2 name">
+                                <p>S</p>
+                            </div>
+                            <div class="col-7">
+                                <div class="id">
+                                    <h5>Paypal LTD</h5>
+                                    <p>08 March 2020</p>
+                                </div>
+                            </div>
+                            <div class="col-3 price">
+                                +$296.79
+                            </div>
+
+
+                            <div class="col-2 name">
+                                <p>H</p>
+                            </div>
+                            <div class="col-7">
+                                <div class="id">
+                                    <h5>Paypal LTD</h5>
+                                    <p>08 March 2020</p>
+                                </div>
+                            </div>
+                            <div class="col-3 price">
+                                +$296.79
+                            </div>
+
+
+                            <div class="col-2 name">
+                                <p>A</p>
+                            </div>
+                            <div class="col-7">
+                                <div class="id">
+                                    <h5>Paypal LTD</h5>
+                                    <p>08 March 2020</p>
+                                </div>
+                            </div>
+                            <div class="col-3 price">
+                                +$296.79
+                            </div>
+
+
+                            <div class="col-2 name">
+                                <p>L</p>
+                            </div>
+                            <div class="col-7">
+                                <div class="id">
+                                    <h5>Paypal LTD</h5>
+                                    <p>08 March 2020</p>
+                                </div>
+                            </div>
+                            <div class="col-3 price">
+                                +$296.79
+                            </div>
+
+
+                            <div class="col-2 name">
+                                <p>V</p>
+                            </div>
+                            <div class="col-7">
+                                <div class="id">
+                                    <h5>Paypal LTD</h5>
+                                    <p>08 March 2020</p>
+                                </div>
+                            </div>
+                            <div class="col-3 price">
+                                +$296.79
+                            </div>
+
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-12">
+                                Find Us
+                            </div>
+
+                            <div class="col-12 map">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.056340565921!2d77.37350157625605!3d28.62807347566713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce858215b4123%3A0xe7fe9408a665ce57!2sW3villa%20Technologies!5e0!3m2!1sen!2sin!4v1688810366855!5m2!1sen!2sin"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
